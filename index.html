@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Presentación</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- ruta del CSS personalizado -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+ 
+  <header class="bg-light text-center p-4">
+    <h1 class="nombre">Miguel Rosales</h1>
+    <p class="eslogan">"Apasionado por la tecnología y el aprendizaje constante"</p>
+    <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="rounded-circle shadow perfil-img" />
+  </header>
+
+  <!-- Biografía -->
+  <section class="container mt-4">
+    <div class="p-3">
+      <p>Soy una persona muy alegre, me gustan las telecomunicaciones que es donde laboro actualmente, así mismo me gusta aprender lenguajes de programación y participar en proyectos. 
+        Actualmente tengo el CCNA que es un estudio de las telecomunicaciones, he aprendido tambien configuraciones para equipos Huawei, y me gustaria continuar con la seguridad en las
+        telecomunicaciones, así mismo esto hace que las bases de la programaciópn sean muy importantes por lo que he estado aprendiendo con python, java, javascript, base de datos. 
+        Por mi trabajo tambien he estado en contacto con servidores, workstation y equipo de computo ya que tambien desempeño trabajos como IT.
+      </p>
+    </div>
+
+    <!-- Lista habilidades -->
+    <div class="mt-3">
+      <h3>💡 Habilidades e intereses</h3>
+      <ul class="lista-habilidades">
+        <li>⚙️ Telecomunicaciones</li>
+        <li>🎨 7mo Arte </li>
+        <li>📱 Desarrollo y Bae de datos </li>
+        <li>💬 Comunicación efectiva</li>
+        <li>📚 Aprendizaje continuo</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Galería de tarjetas -->
+  <section class="container mt-5">
+    <h3 class="mb-4">🧩 Proyectos y pasatiempos</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card custom-card">
+          <img src="https://www.tecnozero.com/wp-content/uploads/2014/03/dedicatedServer.png" class="card-img-top mx-auto" alt="Proyecto 1" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 1: Virtualizacion de Servidores</h5>
+            <p class="card-text">Virtualizar Servidores para aplicaciones, así mismo configurar sistemas de monitoreo</p>
+          </div>
+        </div>
+      </div> 
+      <div class="col-md-4">
+        <div class="card custom-card">
+          <img src="data:image/jpeg;base64,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" class="card-img-top mx-auto" alt="Proyecto 2" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">Estudios avanzados en Telecomunicaciones</h5>
+            <p class="card-text" >Aprender en instituciones que brinden certificaciones, así mismo autodidacta.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card custom-card">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/021/925/276/small/teenage-gamer-wearing-vr-head-mounted-playing-game-generative-ai-photo.jpg" class="card-img-top mx-auto" alt="Proyecto 3" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">Pasatiempo: Video Juegos y ver Series</h5>
+            <p class="card-text">Me gusto mucho pasar tiempo jugando, así como viendo anime, series de TV, actualmente en menor medida.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5 p-4 bg-light">
+    <p>🌐 Sígueme en redes: Twitter 🐦 | LinkedIn 💼 | <a href="https://github.com/mikerosgt">GitHub 🖥️</a> </p>
+    <p>📧 <a href="mrosales.antuche@gmail.com">mrosales.antuche@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
